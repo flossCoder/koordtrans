@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="/"/>
+    <Version Value="6"/>
+    <General>
+      <MainUnit Value="0"/>
+      <IconPath Value="./"/>
+      <TargetFileExt Value=""/>
+      <ActiveEditorIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <ProjectVersion Value=""/>
+      <Language Value=""/>
+      <CharSet Value=""/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="koordtrans.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Koordtrans"/>
+        <UsageCount Value="25"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="kootrans.pas"/>
+        <ComponentName Value="Form1"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="kootrans.lrs"/>
+        <UnitName Value="Kootrans"/>
+        <CursorPos X="29" Y="101"/>
+        <TopLine Value="61"/>
+        <UsageCount Value="25"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../../../../../usr/lib/lazarus/lcl/include/control.inc"/>
+        <CursorPos X="1" Y="2095"/>
+        <TopLine Value="2073"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../../../../../usr/lib/lazarus/lcl/interfaces/gtk/gtkwidgetset.inc"/>
+        <CursorPos X="1" Y="1253"/>
+        <TopLine Value="1231"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../LinOStat/LinOStat/abcloglinunit.pas"/>
+        <ComponentName Value="ABCLogLinearFrm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="../LinOStat/LinOStat/abcloglinunit.lrs"/>
+        <UnitName Value="ABCLogLinUnit"/>
+        <CursorPos X="24" Y="989"/>
+        <TopLine Value="942"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit4>
+    </Units>
+    <JumpHistory Count="0" HistoryIndex="-1"/>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="8"/>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="2">
+      <Item1>
+        <Name Value="ECodetoolError"/>
+      </Item1>
+      <Item2>
+        <Name Value="EFOpenError"/>
+      </Item2>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

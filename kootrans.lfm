@@ -1,0 +1,228 @@
+object Form1: TForm1
+  Left = 333
+  Height = 703
+  Top = 25
+  Width = 455
+  Caption = 'Koordinatentransformation'
+  ClientHeight = 703
+  ClientWidth = 455
+  ParentFont = False
+  LCLVersion = '0.9.26'
+  object Label1: TLabel
+    Left = 12
+    Height = 17
+    Top = 8
+    Width = 367
+    Caption = 'Nur vielfache von PI erlaubt! PI nicht mit eingeben!'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 12
+    Height = 17
+    Top = 40
+    Width = 258
+    Caption = 'Alles wird im Bogenmaß berechnet!'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 254
+    Height = 32
+    Top = 656
+    Width = 173
+    Caption = 'Beenden'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 16
+    Height = 32
+    Top = 72
+    Width = 128
+    Caption = 'Grad Berechnen'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Left = 16
+    Height = 32
+    Top = 120
+    Width = 128
+    TabOrder = 2
+    Text = 'Grad'
+  end
+  object Edit2: TEdit
+    Left = 200
+    Height = 29
+    Top = 120
+    Width = 172
+    TabOrder = 3
+    Text = 'Bogenmaß'
+  end
+  object Button3: TButton
+    Left = 203
+    Height = 32
+    Top = 72
+    Width = 169
+    Caption = 'Bogenmaß Berechnen'
+    OnClick = Button3Click
+    TabOrder = 4
+  end
+  object Button4: TButton
+    Left = 254
+    Height = 32
+    Top = 608
+    Width = 177
+    Caption = 'Leeren'
+    OnClick = Button4Click
+    TabOrder = 5
+  end
+  object Edit3: TEdit
+    Left = 16
+    Height = 30
+    Top = 217
+    Width = 179
+    TabOrder = 6
+    Text = 'karth. Koo. x'
+  end
+  object Edit4: TEdit
+    Left = 17
+    Height = 28
+    Top = 265
+    Width = 178
+    TabOrder = 7
+    Text = 'karth. Koo. y'
+  end
+  object Edit5: TEdit
+    Left = 248
+    Height = 27
+    Top = 217
+    Width = 178
+    TabOrder = 8
+    Text = 'Kreiskoo. r'
+  end
+  object Edit6: TEdit
+    Left = 248
+    Height = 27
+    Top = 265
+    Width = 177
+    TabOrder = 9
+    Text = 'Kreiskoo. phi'
+  end
+  object Button5: TButton
+    Left = 16
+    Height = 28
+    Top = 169
+    Width = 178
+    Caption = 'karth. Koo. Berechnen'
+    OnClick = Button5Click
+    TabOrder = 10
+  end
+  object Button6: TButton
+    Left = 248
+    Height = 29
+    Top = 168
+    Width = 177
+    Caption = 'Kreiskoo. Berechnen'
+    OnClick = Button6Click
+    TabOrder = 11
+  end
+  object Edit7: TEdit
+    Left = 18
+    Height = 30
+    Top = 360
+    Width = 179
+    TabOrder = 12
+    Text = 'karth. Koo. x'
+  end
+  object Edit8: TEdit
+    Left = 18
+    Height = 32
+    Top = 408
+    Width = 178
+    TabOrder = 13
+    Text = 'karth. Koo. y'
+  end
+  object Edit9: TEdit
+    Left = 18
+    Height = 30
+    Top = 464
+    Width = 177
+    TabOrder = 14
+    Text = 'karth. Koo. z'
+  end
+  object Button7: TButton
+    Left = 17
+    Height = 29
+    Top = 312
+    Width = 179
+    Caption = 'von karth. Berechnen'
+    OnClick = Button7Click
+    TabOrder = 15
+  end
+  object Edit10: TEdit
+    Left = 251
+    Height = 27
+    Top = 360
+    Width = 179
+    TabOrder = 16
+    Text = 'Kugel r'
+  end
+  object Edit11: TEdit
+    Left = 251
+    Height = 27
+    Top = 408
+    Width = 178
+    TabOrder = 17
+    Text = 'Kugel phi'
+  end
+  object Edit12: TEdit
+    Left = 251
+    Height = 26
+    Top = 464
+    Width = 175
+    TabOrder = 18
+    Text = 'Kugel theta'
+  end
+  object Button8: TButton
+    Left = 251
+    Height = 28
+    Top = 313
+    Width = 179
+    Caption = 'von Kugel Berechnen'
+    OnClick = Button8Click
+    TabOrder = 19
+  end
+  object Edit13: TEdit
+    Left = 18
+    Height = 32
+    Top = 560
+    Width = 176
+    TabOrder = 20
+    Text = 'Zylinder r'
+  end
+  object Edit14: TEdit
+    Left = 20
+    Height = 30
+    Top = 608
+    Width = 175
+    TabOrder = 21
+    Text = 'Zylinder phi'
+  end
+  object Edit15: TEdit
+    Left = 22
+    Height = 30
+    Top = 656
+    Width = 174
+    TabOrder = 22
+    Text = 'Zylinder z'
+  end
+  object Button9: TButton
+    Left = 20
+    Height = 30
+    Top = 512
+    Width = 182
+    Caption = 'von Zylinder Berechnen'
+    OnClick = Button9Click
+    TabOrder = 23
+  end
+end
