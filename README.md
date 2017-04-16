@@ -1,7 +1,7 @@
 # koordtrans
 
 koordtrans
-Copyright (C) 2009 freeCoder
+Copyright (C) 2009 flossCoder
 
 koordtrans is free software: you can redistribute it and/or modify it
 under the terms of the GNU General Public License as published by the
